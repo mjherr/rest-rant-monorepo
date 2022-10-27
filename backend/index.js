@@ -4,11 +4,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express();
-<<<<<<< HEAD
-const cookieSession = require('cookie-session')
-=======
 const defineCurrentUser = require('./middleware/defineCurrentUser')
->>>>>>> main
 
 // Express Settings
 app.use(cookieSession({
